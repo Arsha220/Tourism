@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    font-style: oblique;
+    font-family:cursive;
+    color: darkgreen;
+    text-shadow: 3px 3px yellowgreen;
+}
+.myMargin{
+    padding: 0;
+    margin: auto;
+} 
+.card-text{
+    text-align: justify;
+    text-size-adjust: 12px;
+}
+.sub{
+    background-image: url(../Images/main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.forms{
+    padding: 30px;
+    border-radius: 10px;
+    margin-left: 500px;
+    margin-right: 500px;
+    opacity: 90%;
+    height: 552px;
+} 
+.web{
+    text-align: center;
+    color: white;
+    background-color: lime;
+}
+.dem h4{
+    font-size:45px;
+    margin-left: 320px;
+    padding-top:100px;
+    padding-left:180px;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    opacity:90%;
+}
+.dem{
+    background-image: url(../Images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 552px;
+}
+.center input{
+    opacity: 40%;
+}
+.heading{
+    animation-duration:4s;
+    animation-name: h2;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: linear;
+    position: relative;
+    font-family: cursive;
+}
+@keyframes h2{
+    0%{color:green;}
+    25%{color: blue;}
+    50%{color:blueviolet}
+    100%{color: chartreuse;}
+    from{left:0px;}
+    to{left:750px;}
+}
